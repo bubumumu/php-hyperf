@@ -78,9 +78,9 @@ Run curl -sS https://getcomposer.org/installer | php \
 
 # Install composer deps
 ADD . /var/www/
-RUN  cd /var/www/ \
-    && composer install \
-    && composer clearcache
+# RUN  cd /var/www/ \
+#    && composer install \
+#    && composer clearcache
 
 WORKDIR /var/www/
 EXPOSE 9501
