@@ -85,4 +85,4 @@ ADD . /var/www/
 WORKDIR /var/www/
 EXPOSE 9501
 
-ENTRYPOINT ["php", "/var/www/bin/srv_oms.php", "start"]
+ENTRYPOINT ["php", "/var/www/bin/srv-oms.php", "start"]
